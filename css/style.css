@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(224, 218, 162);
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    text-align: center;
+    color: #412728;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    color: #7f4d3e;
+}
+
+li a {
+    padding: 40px;
+    text-decoration: none;
+    color: #7f4d3e;
+
+
+}
+
+li a:hover {
+    color: #b87c4c;
+}
+
+.hero-text {
+    text-align: center;
+    margin: 20px;
+    color: #412728;
+
+
+}
+
+.short {
+    padding: 20px;
+    color: #7f4d3e;
+
+}
+
+#hireBtn {
+    width: 80px;
+    height: 20px;
+    color: #412728;
+    border-radius: 10px;
+    border: 5px;
+}
+
+.hero-image img {
+    margin-left: 45%;
+    width: 10%;
+    height: 10%;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #412728;
+
+}
+
+.about p {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 15px;
+    color: #7f4d3e;
+
+}
+
+.skills {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+    color: #412728;
+
+}
+
+.skill {
+    padding: 10px;
+    color: #7f4d3e;
+
+}
+
+.projects h2{
+     
+        text-align: center;
+        color: #412728;
+
+    
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.project-card {
+
+    flex: 0 1 calc(50% - 15px);
+    box-shadow: 0 4px 6px rgba(25, 18, 18, 0.05);
+    overflow: hidden;
+}
+
+
+
+.project-card {
+    padding: 20px;
+    text-align: left;
+}
+
+.project-card h3 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #412728;
+
+
+}
+
+.project-card p {
+    text-align: center;
+    color: #2b2525;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #7f4d3e;
+
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 20px;
+ 
+
+}
+
+.form {
+    border-radius: 10px;
+    border: 2px;
+    height: 60px;
+    width: 500px;
+      text-align: center;
+      font-size: 15px;
+}
+
+#contactForm button {
+    width: 22%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+hr {
+    border: 0;
+    /* Remove default border */
+    height: 1px;
+    /* Set line thickness */
+    background: #412728;
+    /* Light gray color */
+    margin: 2rem 0;
+    /* Space above and below */
+
+}
