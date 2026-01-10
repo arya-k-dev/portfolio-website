@@ -1,16 +1,16 @@
-# Portfolio Website
+# Personal Portfolio Website
 
 This is my personal portfolio website built using HTML, CSS, and JavaScript.
 
 ## Features
-- Responsive layout
+- Clean and simple UI
 - About, Skills, Projects, and Contact sections
-- Basic JavaScript interactivity
+- Hosted live using GitHub Pages
+
+## Live Demo
+https://arya-k-dev.github.io/portfolio-website/
 
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
-
-## Live Demo
-(Will be added after deployment)
